@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/** No Rights Reserved. Public Domain. CCO.
+ * Seth Herendeen
+ * Last edited 2020-11-11 
+ */
+
+
+body {
+ max-width:650px;
+ margin:40px auto;
+ padding:0 10px;
+ font:18px/1.5 -apple-system,BlinkMacSystemFont,"avenir next",avenir,"Segoe UI","lucida grande","helvetica neue",helvetica,"Fira Sans",roboto,noto,"Droid Sans",cantarell,oxygen,ubuntu,"franklin gothic medium","century gothic","Liberation Sans",sans-serif;
+ color:#444
+}
+
+h1, h2, h3 {
+ line-height:1.2
+}
+
+img.thumbnail {
+	max-width: 25%;
+	height: auto;
+
+}
+
+label {
+	background-color: #000;
+	color: #fff; 
+	padding: 3px 6px;
+	font: 1rem 'Fira Sans', sans-serif;
+	width: initial;
+
+}
+
+.output {
+	font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+	margin: .4rem;
+}
+
+#last {
+	font-weight: bold;
+}
+
+/** make table responsive so that it is not disgusting */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color:#a3f3a3 ;
+}
+
+
+textarea {
+	padding: 10px;
+    line-height: 1.5;
+    
+}
+
+label, textarea {
+	letter-spacing: 1px;
+	border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+#myForm > div:nth-child(2) > label:nth-child(1) {
+
+	margin-bottom: 5px;
+	display: table-caption;
+}
+
+
+
+.post {
+	border: 2.4px solid #ccc;
+	border-radius: 1em;
+	margin-top: 10px;
+	padding: 10px;
+}
