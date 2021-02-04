@@ -1,4 +1,8 @@
-<?php    
+<?php   
+/**
+* @author Seth G. R. Herendeen
+* @license MIT
+*/
 class post {
     
     private $postNo;
