@@ -44,7 +44,7 @@
     
     function getPostsFromTable(PDO $dbConn) : array {
         
-        $query = 'SELECT postID, textContent, ipAddress, fileName, authorName, postDate, altText FROM postsTable ORDER BY postID DESC LIMIT 10';
+        $query = 'SELECT postID, textContent, ipAddress, fileName, authorName, postDate, altText FROM postsTable ORDER BY postID DESC LIMIT 10;';
         $statement = $dbConn->prepare($query);
         $statement->execute();
         
