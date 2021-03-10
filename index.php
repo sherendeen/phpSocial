@@ -50,15 +50,15 @@
             	</div>
             	
             	<div>
-            		<p>
+            		<div>
             			<label for="fileToUpload">Upload image (>1MB)</label>
             			<input type="file" name="fileToUpload" id="fileToUpload" />
-            		</p>
-            		<p>
+            		</div>
+            		<div>
             			<label for="altText">Image description</label>
             			<input type="text" name="altText" id="altText" placeholder="describe image!"/ >
             		
-					</p>
+			</div>
             	</div>
             	
             	<button type="submit" name="submit" id="submit">Post</button>
@@ -133,11 +133,12 @@
             ?>
         </main>
         <footer>
-        	<h2>&copy; 2020 Seth Herendeen</h2>
+        	<h2>&copy; 2020, 2021 Seth Herendeen</h2>
         	<p>
-				<a href="rules.html">terms</a> 
-				<a href="privacy.html">privacy policy</a>
-			</p>
+			<a href="rules.html">terms</a> 
+			<a href="privacy.html">privacy policy</a>
+			<a href="https://github.com/sherendeen/phpSocial">code</a>
+		</p>
         </footer>
     </body>
 </html>
