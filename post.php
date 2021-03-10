@@ -103,6 +103,20 @@ class post {
                     <p>$this->textContent</p>
             </article>
             ";
+        } else if (post::endsWith('.webm', $this->fileName))  {
+			return "
+            <article class='post'>
+                    <p>
+                    <label>$this->author</label>
+                    PostNo: $this->postNo - $this->postDate
+                    </p>
+                    <hr />
+                    <video title=$alt class='thumbnail' controls>
+						<source src='$this->fileName' type='video/webm'>
+					</video>
+                    <p>$this->textContent</p>
+            </article>
+            ";
         } else {
             return "
             <article class='post'>
@@ -119,5 +133,9 @@ class post {
         }
     }
     
+    	
+	public static function endsWith($stringToFind, $str) : bool {
+		return preg_match('/' . preg_quote($stringToFind, '/') . '$/', $str);
+	}
     
 } ?>
