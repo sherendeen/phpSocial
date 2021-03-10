@@ -57,9 +57,9 @@
         foreach ($elements as $i => $row) {
             $isFirst = ($i == 0);
             $isLast = ($i == $last);
-            
+            // use of appended empty strings to conform to parameters that require strongly typed strings
             $post = new Post( $row['postID'] , $row['textContent'], $row['ipAddress'], 
-                $row['fileName'].'', $row['authorName'], $row['postDate'], $row['altText']);
+                $row['fileName'].'', $row['authorName'], $row['postDate'], $row['altText'].'');
             array_push($posts, $post);
         }
         
