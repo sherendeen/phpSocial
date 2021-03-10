@@ -19,7 +19,7 @@ h1, h2, h3 {
 
 img.thumbnail {
 	/**max-width: 25%; */
-	max-width: 55%;
+	max-width: 75%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -29,7 +29,7 @@ img.thumbnail {
 label {
 	background-color: #000;
 	color: #fff; 
-	padding: 3px 3px;
+	padding: 3px 6px;
 	font: 1rem 'Fira Sans', sans-serif;
 	width: initial;
 	letter-spacing: 1px;
@@ -41,7 +41,7 @@ label {
 }
 
 input {
-	margin: .04rem;
+	margin: .4rem;
 }
 
 #last {
@@ -65,6 +65,7 @@ tr:nth-child(even) {
 
 
 textarea {
+	/**padding: 10px;*/
     line-height: 1.5;
 	letter-spacing: 1px;
 	border-radius: 5px;
