@@ -17,6 +17,11 @@ h1, h2, h3 {
  line-height:1.2
 }
 
+video {
+	max-width: 100%;
+	height: auto !important;
+}
+
 img.thumbnail {
 	/**max-width: 25%; */
 	max-width: 75%;
