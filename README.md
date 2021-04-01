@@ -1,5 +1,15 @@
 # phpSocial
-Really very simple php-based message board
+Really very simple php-based, semi-anonymous message board.
+
+![Desktop version](https://i.imgur.com/CKyY1wV.png)
+
+![Mobile version](https://i.imgur.com/l2RHlgU.jpg)
+
+# Features
+- Supports some videos
+- Fits your screens
+- lightweight, no javascript
+- simple
 
 # Deployment
 Pretty sure PHP 7 or greater. I used MySQL for the database. WWW directory needs to have an [uploads] director so that users may upload images. 
